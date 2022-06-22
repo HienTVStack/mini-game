@@ -15,29 +15,6 @@ html, body {
     background-size: contain;
     position: relative;
 }
-#list {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 400px;
-    max-height: 500px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    overflow: auto;
-}
-.list-heading {
-    font-size: 2rem;
-    color: #000;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 20px 0;
-    border-bottom: 1px solid #000;
-
-}
-
-table {
-    padding: 10px 20px;
-}
 #logo {
     position: absolute;
     top: 30px;
@@ -56,21 +33,6 @@ table {
     text-align: center;
     padding-top: 50px;
 }
-#heading h1 {
-    /* color: ; */
-}
-.stroll-x {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 45%;
-    background-color: #fff;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px 0;
-}
 #main {
     position: absolute;
     top: 50%;
@@ -85,7 +47,6 @@ table {
 #main-number input {
     width: 50px;
     height: 50px;
-    /* padding: 20px; */
     text-align: center;
     font-size: 3rem;
 }
@@ -114,12 +75,11 @@ table {
 .btn-random:hover {
     background-color: #8df3b6;
     color: #000;
-    
 }
 #sub {
     position: absolute;
     left: 30px;
-    bottom: 50px;
+    bottom: 20px;
     width: 300px;
     height: 400px;
     border: 1px solid #ccc;
@@ -141,7 +101,6 @@ table {
     align-items: center;
     justify-content: space-evenly;
     width: 70%;
-    /* padding: 10px 12px; */
 }
 #end > h3 {
     font-size: 1.5rem;
@@ -150,58 +109,6 @@ table {
     position: absolute;
     bottom: 30px;
     right: 30px;
-}
-table {
-    width: 100%;
-    height: 100%;
-    overflow: scroll;
-}
-table > th, td {
-    width: 50px;
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 5px 0;
-}
-#menu-bar {
-    /* position: absolute; */
-    top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #000;
-    width: 100%;
-    padding: 7px 5px;
-}
-#menu-bar__logo {
-    width: 40px;
-    height: 40px;
-}
-#menu-bar__logo > img {
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
-}
-
-#menu-bar__list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style-type: none;
-}
-.menu-bar__item {
-    padding: 10px 12px;
-}
-.menu-bar__item > a {
-    text-decoration: none;
-    color: #FFF;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-}
-#mobli__list {
-    width: 100%;
-}
-#mobli__sub {
-    width: 90%;
 }
 .sub-title {
     font-size: 2rem;
@@ -262,14 +169,10 @@ table > th, td {
         font-size: 2.3rem;
     }
     p, span, h3 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
-    #menu-bar {
-        display: none;
-    }
-    .mobli {
-        display: none;
-    }
+   
+    
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
