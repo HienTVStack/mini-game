@@ -10,7 +10,7 @@ html, body {
 #root {
     width: 100%;
     height: 100%;
-    background-image: url('./abstract-simple-background_53876-99863.jpg');
+    background-image: url('./da23cab5ce09d1a97e78f57785921e20.jpeg');
     background-position: center;
     background-size: contain;
     position: relative;
@@ -171,9 +171,4 @@ html, body {
     p, span, h3 {
         font-size: 1.7rem;
     }
-   
-    
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {...} */
