@@ -134,9 +134,8 @@ const handleDial = () => {
     n9.value = handleRandom(0, 9);
     n10.value = handleRandom(0, 9);
     count++;
-    if (count >= 150) {
+    if (count >= 120) {
       clearInterval(timeId);
-      console.log(dataList[handleRandom(0, dataList.length)].phoneNumber[1]);
       const empItem = handleRandom(0, dataList.length);
       n2.value = dataList[empItem].phoneNumber[1];
       n3.value = dataList[empItem].phoneNumber[2];
@@ -150,7 +149,7 @@ const handleDial = () => {
       modalElement.style.display = "block";
       numberResult.textContent = dataList[empItem].fullName;
     }
-  }, 70);
+  }, 60);
 };
 
 randomBtn.onclick = () => {
