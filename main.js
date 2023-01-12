@@ -1,6 +1,7 @@
 const randomBtn = document.getElementById("btn-random");
 const numberResult = document.getElementById("number-result");
 const submitBtn = document.querySelector(".btn-submit");
+const closeBtn = document.querySelector(".btn-close");
 const result1 = document.getElementById("result1");
 const result2 = document.getElementById("result2");
 const result3 = document.getElementById("result3");
@@ -146,8 +147,8 @@ const handleDial = () => {
       n8.value = dataList[empItem].phoneNumber[7];
       n9.value = dataList[empItem].phoneNumber[8];
       n10.value = dataList[empItem].phoneNumber[9];
-      // modalElement.style.display = "block";
-      // numberResult.textContent = dataList[empItem].fullName;
+      modalElement.style.display = "block";
+      numberResult.textContent = dataList[empItem].fullName;
     }
   }, 70);
 };
@@ -156,6 +157,13 @@ randomBtn.onclick = () => {
   handleDial();
 };
 
+submitBtn.onclick = () => {
+  modalElement.style.display = "none";
+  handleDial();
+};
+closeBtn.onclick = () => {
+  modalElement.style.display = "none";
+};
 // const resultData = [];
 
 // confirmBtn.onclick = () => {
